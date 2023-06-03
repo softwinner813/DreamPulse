@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "198535501146",
+    "project_id": "dreampulse-f2991",
+    "storage_bucket": "dreampulse-f2991.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198535501146:android:47f021e2f13b558f630f63",
+        "android_client_info": {
+          "package_name": "com.mycompany.dreampulse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLJmNs_XwAjxdyQHucaEZNILcFmunjibc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
