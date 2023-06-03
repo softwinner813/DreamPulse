@@ -1,3 +1,5 @@
+import 'dart:async';
+import 'dart:math';
 import '/backend/api_requests/api_calls.dart';
 import '/backend/backend.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
@@ -10,8 +12,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'chat_page_model.dart';
 import 'package:lottie/lottie.dart';
+import 'chat_page_model.dart';
 export 'chat_page_model.dart';
 
 class ChatPageWidget extends StatefulWidget {
@@ -56,7 +58,7 @@ class _ChatPageWidgetState extends State<ChatPageWidget> {
               _model.chatHistory, functions.convertToJSON(widget.startMsg!));
         });
         _model.chatGPTResponseFirst = await SendFullPromptCall.call(
-          apiKey: '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',
+          apiKey: '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',
           promptJson: _model.chatHistory,
         );
         if ((_model.chatGPTResponseFirst?.succeeded ?? true)) {
